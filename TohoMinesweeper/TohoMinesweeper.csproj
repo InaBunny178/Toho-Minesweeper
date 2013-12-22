@@ -95,70 +95,70 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\number0.png" />
+    <None Include="Resources\numbers\number0.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\number1.png" />
+    <None Include="Resources\numbers\number1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\number2.png" />
+    <None Include="Resources\numbers\number2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\number3.png" />
+    <None Include="Resources\numbers\number3.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\number4.png" />
+    <None Include="Resources\numbers\number4.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\number5.png" />
+    <None Include="Resources\numbers\number5.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\number6.png" />
+    <None Include="Resources\numbers\number6.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\number7.png" />
+    <None Include="Resources\numbers\number7.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\number8.png" />
+    <None Include="Resources\numbers\number8.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\number9.png" />
+    <None Include="Resources\numbers\number9.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\timer0.png" />
+    <None Include="Resources\timers\timer0.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\timer1.png" />
+    <None Include="Resources\timers\timer1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\timer2.png" />
+    <None Include="Resources\timers\timer2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\timer3.png" />
+    <None Include="Resources\timers\timer3.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\timer4.png" />
+    <None Include="Resources\timers\timer4.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\timer5.png" />
+    <None Include="Resources\timers\timer5.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\timer6.png" />
+    <None Include="Resources\timers\timer6.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\timer7.png" />
+    <None Include="Resources\timers\timer7.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\timer8.png" />
+    <None Include="Resources\timers\timer8.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\timer8_2.png" />
+    <None Include="Resources\timers\timer8_2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\timer9.png" />
+    <None Include="Resources\timers\timer9.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\timer9_2.png" />
+    <None Include="Resources\timers\timer9_2.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\bomb.png" />
