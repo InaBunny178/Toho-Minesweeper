@@ -36,6 +36,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -92,6 +93,75 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\number0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\number1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\number2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\number3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\number4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\number5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\number6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\number7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\number8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\number9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timer0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timer1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timer2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timer3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timer4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timer5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timer6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timer7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timer8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timer8_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timer9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timer9_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bomb.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
