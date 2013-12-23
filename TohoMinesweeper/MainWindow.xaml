@@ -1,8 +1,34 @@
-﻿<Window x:Class="TohoMinesweeper.MainWindow"
+﻿<Window
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+        xmlns:local="clr-namespace:TohoMinesweeper" x:Class="TohoMinesweeper.MainWindow"
+        Title="MainWindow" SizeToContent="WidthAndHeight" ResizeMode="CanMinimize">
+    <Window.CommandBindings>
+        <CommandBinding Command="New" Executed="GameStartExecuted" />
+        <CommandBinding Command="Properties" Executed="GameOptionExecuted" />
+        <CommandBinding Command="Close" Executed="GameEndExecuted" />
+        <CommandBinding Command="Help" Executed="HelpDisplayExecuted" />
+    </Window.CommandBindings>
+    <Grid Background="#FF787878">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Menu VerticalAlignment="Top">
+            <MenuItem Header="ゲーム(_G)">
+                <MenuItem Header="スタート(_N)" Command="New"/>
+                <Separator />
+                <MenuItem Header="オプション(_O)" Command="Properties"/>
+                <Separator />
+                <MenuItem Header="終了(_X)" Command="Close"/>
+            </MenuItem>
+            <MenuItem Header="ヘルプ(_H)">
+                <MenuItem Header="ヘルプの表示(_V)" Command="Help"/>
+            </MenuItem>
+        </Menu>
+        <local:MineBlockControl x:Name="mineBlockControl" Margin="30, 30, 30, 0" Grid.Row="1" />
+        <local:UnderPanelControl x:Name="underPanelControl" Margin="30,0"  Grid.Row="2" />
     </Grid>
+
 </Window>
